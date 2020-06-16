@@ -1,0 +1,9 @@
+{{- $board := or .board "rockpropx30" -}}
+{{- $architecture := or .architecture "armhf" -}}
+{{- $model :=  or .model "debian" -}}
+{{- $suite := or  .suite "buster" -}}
+{{- $imagesize := or .iamgesize "2000MB" -}}
+{{- $bootpartitionend := or .bootpartitionend "1081343S" -}}
+{{- $rootpartitionstart := or .rootpartitionstart "1081344S" -}}
+{{- $apt_repo := or .apt_repo "radxa" -}}
+
